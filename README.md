@@ -1,7 +1,5 @@
 # JSPM Loader: CSS
 
-[![Join the chat at https://gitter.im/geelen/jspm-loader-css](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/geelen/jspm-loader-css?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 An extensible CSS loader for JSPM.
 
 Install the plugin and name it `css` locally
@@ -37,7 +35,7 @@ import styles from './styles.css!'
 elem.innerHTML = `<div class="${styles.myComponent}"></div>`
 ```
 
-For the full CSS Modules syntax, where everything is local by default, see the [JSPM CSS Modules Loader](https://github.com/geelen/jspm-loader-css-modules) project.
+For the full CSS Modules syntax, where everything is local by default, see the [JSPM CSS Modules Loader](https://github.com/jhoch/jspm-loader-css-modules) project.
 
 ## :export & :import
 
@@ -107,5 +105,5 @@ You can customize this loader to meet your needs.
 	
  jspm will use what `css.js` exports as the default css loader.
 	
-You can also check [an example css.js file here](https://github.com/geelen/glenmaddern.com/blob/master/src/css.js "Customize your own jspm css loader").
+You can also check [an example css.js file here](https://github.com/jhoch/glenmaddern.com/blob/master/src/css.js "Customize your own jspm css loader").
 	
