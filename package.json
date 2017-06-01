@@ -6,6 +6,7 @@
   "description": "A CSS loader for JSPM. Install",
   "registry": "npm",
   "dependencies": {
+    "autoprefixer": "^7.1.1",
     "css-modules-loader-core": "^1.1.0",
     "debounce": "^1.0.0",
     "path": "^0.12.7",
